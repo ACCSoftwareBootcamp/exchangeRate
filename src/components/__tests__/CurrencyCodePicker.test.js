@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import { CurrencyCodePicker } from "../CurrencyCodePicker";
 import { ExchangeRate } from "../ExchangeRate";
 
 test("renders title", () => {
@@ -6,3 +7,5 @@ test("renders title", () => {
   const linkElement = screen.getByText(/exchange rates/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+

@@ -37,6 +37,7 @@ export function ExchangeRate() {
             supportedCurrencies={supportedCurrencies}
             currencyCode={currencyCode}
             onChange={handleCurrencyCode}
+    
           />
         </h1>
       </section>
@@ -49,3 +50,5 @@ export function ExchangeRate() {
     </>
   );
 }
+
+export default ExchangeRate;

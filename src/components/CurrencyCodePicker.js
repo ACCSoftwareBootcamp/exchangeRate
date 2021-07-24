@@ -13,3 +13,5 @@ export function CurrencyCodePicker({
     </select>
   );
 }
+
+export default CurrencyCodePicker;

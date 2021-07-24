@@ -10,3 +10,5 @@ export function AmountField({ amount, onChange }) {
     </form>
   );
 }
+
+export default AmountField;

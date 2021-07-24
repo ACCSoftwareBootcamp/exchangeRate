@@ -1,3 +1,5 @@
+
+
 export function RateTable({ currencyData, amount }) {
   return (
     <table className="ExchangeRate-table">
@@ -21,3 +23,5 @@ export function RateTable({ currencyData, amount }) {
     </table>
   );
 }
+
+export default RateTable;
