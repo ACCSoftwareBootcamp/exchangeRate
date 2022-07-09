@@ -9,8 +9,8 @@ const sleep = (time) => new Promise((res) => setTimeout(res, time));
 // with exchange rates after a short period
 export async function fetch(url) {
   const [, search = ""] = url.split("?");
-  const params = new URLSearchParams(search);
-  await sleep(400);
+  const params = new URLSearchParams(search); 
+  await sleep(400); //setting the delay to 400
   // const symbols = new Set((params.get("symbols") || "").split(","));
   const base = params.get("base");
   const rates = exchangeRates[base];
